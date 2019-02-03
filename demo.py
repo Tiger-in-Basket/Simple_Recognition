@@ -71,6 +71,7 @@ if __name__ == '__main__':  #你可以把它看成C++里的int main(), 其实有
 	cap = cv2.VideoCapture(0) 
 	''' end initial '''
 	
+	
 	GetPhoto()
 	photo = "photo.jpg" #此处填写截取下的图片路径
 	image_code = image_to_base64(photo)
